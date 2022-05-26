@@ -1,0 +1,464 @@
+
+.body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+/********************header********************/
+.banner {
+  color: #fff;
+  font-size: 13px;
+}
+
+.banner button {
+  border: none;
+  background: none;
+  color: #fff;
+  padding: 0 0 0 10;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.logo-banner {
+  padding: 15px 0;
+}
+
+.social-media a {
+  color: #73777B;
+  margin-right: 10px;
+}
+
+.user-space a {
+  color: #73777B;
+  padding-left: 1em;
+}
+
+.menu button {
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0;
+  border: none;
+  background: none;
+  margin: 3px 20px;
+}
+
+.menu-buy {
+  color: #EB5353;
+}
+
+.icon-color {
+  color: #73777B;
+}
+
+.navbar-nav>button {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/****************************HOME GRID SECTION*************************/
+.grid-line1 {
+  margin-bottom: 15px;
+}
+
+.pos-relat {
+  position: relative;
+}
+
+.box-title {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.box-title a {
+  padding: 0;
+}
+
+.box-title p {
+  color: #73777B;
+  font-size: 13px;
+}
+
+.box1-text {
+  position: absolute;
+  top: 12%;
+  right: 14%;
+  text-align: right;
+}
+
+.box2-text {
+  position: absolute;
+  bottom: 27%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.box-text {
+  position: absolute;
+  top: 12%;
+  left: 12%;
+}
+
+/* Timer */
+.black-square {
+  background-color: black;
+  position: relative;
+
+  margin-bottom: 4px;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.timer-txt {
+  color: #73777B;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 500;
+  margin: 0;
+}
+
+.time-pos {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.timer {
+  position: absolute;
+  left: 50%;
+  bottom: 8%;
+  transform: translateX(-50%);
+}
+
+.grid {
+  margin: 20px 0;
+}
+
+/* Zoom-in Animation/ underline-decoratin  */
+.img-hover-zoom {
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform .3s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.1);
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.nav-link label{
+  cursor:pointer;
+}
+/* End of Zoom-in Animation */
+@media screen and (max-width: 1655px) {
+  .box-title {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1178px) {
+  .box-title {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 1007px) {
+  .social-media {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 795px) {
+  .box-title {
+    font-size: 1.5rem;
+  }
+
+  .box1-resp {
+    font-size: 1rem;
+  }
+
+  .box1-resp p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .box-title {
+    font-size: 1.2rem;
+  }
+
+  .box1-resp {
+    font-size: 0.7rem;
+  }
+
+  .box1-resp p {
+    font-size: 7px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .box1-resp {
+    font-size: 1rem;
+  }
+
+  .box1-resp p {
+    font-size: 7px;
+  }
+
+  .banner p {
+    font-size: 11px;
+  }
+
+  .banner button {
+    font-size: 11px;
+  }
+}
+
+/*****************************Products Section**************************/
+.img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.carte {
+  position: relative;
+  display: inline-block;
+}
+
+.carte:hover .img-top {
+  display: inline;
+  cursor: pointer;
+}
+
+.products {
+  margin-bottom: 50px;
+}
+
+.products h1 {
+  text-align: center;
+  font-size: 1.6em;
+}
+
+.products li {
+  font-size: 1rem;
+  list-style: none;
+}
+
+.products a {
+  padding: 0 5px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+.products a:hover {
+  color: #000;
+}
+
+.pdt-name {
+  font-size: 16px;
+  display: block;
+  font-weight: 500;
+}
+
+.blackiconcolor {
+  color: black;
+}
+
+.yellowiconcolor {
+  color: #F8CB2E;
+}
+
+.whiteiconcolor {
+  color: beige;
+}
+
+.blueiconcolor {
+  color: #92B4EC;
+}
+
+.coraliconcolor {
+  color: #FF8C8C;
+}
+
+.start-btn {
+  text-decoration: underline;
+  color: #000;
+}
+
+.greenishiconcolor {
+  color: #EEF3D2;
+}
+
+.beigeiconcolor {
+  color: #CC9C75;
+}
+
+/************************** DEAL SECTION ************************* */
+.deal-section {
+  background-image: url("../img/model-bg.png");
+  height: max-content;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.deal-title h1, p {
+  color: #cdc7c7;
+}
+
+.deal-title h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.deal-title p {
+  font-size: 1.4em;
+  margin: 7px 3px;
+}
+
+.deal-timer {}
+
+.transp-square {
+  position: relative;
+  border: 1px solid #fff;
+  margin-bottom: 4px;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.deal-timer-txt {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #cdc7c7;
+  margin: 0;
+}
+
+@media screen and (max-width: 1536px) {
+  .deal-title h1 {
+    font-size: 2.1rem;
+  }
+
+  .deal-title p {
+    font-size: 1rem;
+  }
+
+  .deal-timer-txt {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .deal-title h1 {
+    font-size: 2em;
+  }
+
+  .deal-title p {
+    font-size: 0.9em;
+  }
+
+  .deal-timer-txt {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 1007px) {
+  .deal-title h1 {
+    font-size: 1.6em;
+  }
+
+  .deal-title p {
+    font-size: 0.8em;
+  }
+
+  .deal-timer-txt {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .deal-title h1 {
+    font-size: 1em;
+  }
+
+  .deal-title p {
+    font-size: 0.7em;
+  }
+}
+
+.deal-title button {
+  border: none;
+  background: none;
+  color: #fff;
+  padding: 0 0 0 10;
+}
+
+.deal-pdt-subtitle {
+  font-size: 12px;
+  color: #cdc7c7;
+  display: block;
+}
+
+/**************************FOOTER************************/
+.footer a, p {
+  font-size: 13px;
+  color: #cdc7c7;
+  text-decoration: none;
+}
+
+.footer p {
+  margin-bottom: 8px;
+}
+
+.footer a {
+  padding: 0 0 8px 0;
+  color: #cdc7c7;
+}
+.footer a:hover{
+  color: #cdc7c7;
+  text-decoration: underline;
+}
+.footer h3 {
+  color: #F2F2F2;
+  font-size: 19px;
+  margin-bottom: 25px;
+}
+
+.submit-btn {
+  border: none;
+  background: none;
+  color: #F2F2F2;
+  font-weight: 500;
+}
+
+.email-box {
+  border: 1px solid #7F8487;
+  padding: 10px 0 10px 10px;
+}
+
+.footer {
+  padding: 50px 0 15px 0;
+}
+
+.email-box input {
+  color: #F2F2F2;
+}
+
+.email-box input:focus {
+  outline: none;
+}
+
+.footer-line {
+  border: 1px solid #7F8487;
+  margin: 50px 0 20px 0;
+}
